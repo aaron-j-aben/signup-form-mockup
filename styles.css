@@ -57,13 +57,15 @@ form h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 34rem;
+    width: 32rem;
 }
 
 #sign-up input {
     width: 14rem;
-    height: 1.8em;
+    height: 2em;
     padding: 0 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
 
 form li {
