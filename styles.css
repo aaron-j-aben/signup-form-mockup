@@ -21,13 +21,18 @@ body {
     height: 100vh;
 }
 
-#company-banner {
+#bg-overlay {
     flex: 1 0 auto;
-    background-color: rgb(0 0 0 / 40%);
-    height: 150px;
     min-width: 200px;
+    height: 100%;
+}
+
+#company-banner {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0 0 0 / 40%);
     position: relative;
-    top: 33%;
+    top: 30%;
 }
 
 #main-container {
@@ -50,6 +55,7 @@ body {
 }
 
 #upper-container > p {
+    flex: 1 1 auto;
     margin-bottom: 3rem;
     padding-right: 3rem;
     font-size: 26px;
