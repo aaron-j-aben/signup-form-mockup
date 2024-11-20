@@ -33,13 +33,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: calc(5vh  + 1rem);
 
     flex: 0 0 auto;
     width: 800px;
     height: 100%;
     background-color: white;
-    padding: 0 50px;
+}
+
+.main-content {
+    padding: 40px 50px;
+}
+
+#upper-container {
+    box-shadow: 0 6px 6px rgba(128, 128, 128, 0.420);
 }
 
 form h2 {
@@ -70,7 +76,8 @@ form li > * {
 }
 
 .shadower {
-    position: absolute;
+    position: relative;
+    box-shadow: 0 2px 2px 2px black;
 }
 
 button[form="sign-up"] {
