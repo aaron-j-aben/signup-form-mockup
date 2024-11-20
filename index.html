@@ -23,11 +23,11 @@
                 <ul id="form-items">
                     <li>
                         <label for="name1">FIRST NAME</label>
-                        <input type="text" id="name1" name="first_name">
+                        <input type="text" id="name1" name="first_name" maxlength="20">
                     </li>
                     <li>
                         <label for="name2">LAST NAME</label>
-                        <input type="text" id="name2" name="last_name">
+                        <input type="text" id="name2" name="last_name" maxlength="20">
                     </li>
                     <li>
                         <label for="e-mail">E-MAIL</label>
@@ -35,7 +35,8 @@
                     </li>
                     <li>
                         <label for="pnum">PHONE NUMBER</label>
-                        <input type="tel" id="pnum" name="phone">
+                        <input type="tel" id="pnum" name="phone" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$">
+                        <!-- Pattern from Ravi Thapliyal at https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number -->
                     </li>
                     <li>
                         <label for="ref">REFERRAL CODE</label>
