@@ -49,8 +49,20 @@ body {
     box-shadow: 0 6px 6px rgba(128, 128, 128, 0.420);
 }
 
+#upper-container > p {
+    margin-bottom: 3rem;
+    padding-right: 3rem;
+    font-size: 26px;
+    font-weight: 700px;
+}
+
+em {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
 form h2 {
-    /* Reset heading styling */
+    font-size: 26px;
     margin: 10px 0;
 }
 
