@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: system-ui, sans-serif;
     font-size: 18px;
     appearance: none;
 }
@@ -58,6 +59,12 @@ form h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 32rem;
+}
+
+#sign-up label {
+    font-size: 0.8rem;
+    font-family: "Quicksand", system-ui, sans-serif;
+    letter-spacing: 0.15rem;
 }
 
 #sign-up input {
