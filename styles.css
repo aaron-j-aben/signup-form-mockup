@@ -48,7 +48,7 @@ form h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 36rem;
+    width: 34rem;
 }
 
 #sign-up input {
@@ -68,4 +68,17 @@ form li > * {
 
 .shadower {
     position: absolute;
+}
+
+button[form="sign-up"] {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: 0;
+    background-color: #674f3f;
+    color: azure;
+}
+
+button[form="sign-up"]:hover {
+    
 }
