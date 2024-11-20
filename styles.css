@@ -1,5 +1,6 @@
 * {
     --main-theme-color: #674f3f;
+    --accent-color: #4a592e;
     padding: 0;
     margin: 0;
     font-size: 18px;
@@ -80,8 +81,10 @@ button[form="sign-up"] {
     background-color: var(--main-theme-color);
     color: azure;
     box-shadow: 0px 2px 5px grey;
+    transition: 0.1s ease-in-out;
 }
 
 button[form="sign-up"]:hover {
-    border: 2px solid red;
+    transform: translate(1px, -1px);
+    box-shadow: 0px 2px 2px 3px var(--accent-color);
 }
