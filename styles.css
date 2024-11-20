@@ -40,3 +40,7 @@ body {
 form li {
     list-style-type: none;
 }
+
+.shadower {
+    position: absolute;
+}
