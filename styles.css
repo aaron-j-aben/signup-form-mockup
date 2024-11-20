@@ -71,14 +71,16 @@ form li > * {
 }
 
 button[form="sign-up"] {
+    position: relative;;
     width: 10rem;
     height: 3rem;
     border-radius: 15px;
     border: 0;
     background-color: #674f3f;
     color: azure;
+    box-shadow: 0px 2px 5px grey;
 }
 
 button[form="sign-up"]:hover {
-    
+    border: 2px solid red;
 }
