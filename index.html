@@ -35,14 +35,13 @@
                     </li>
                     <li>
                         <label for="pnum">PHONE NUMBER</label>
-                        <input type="tel" id="pnum" name="phone" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$">
-                        <!-- Pattern from Ravi Thapliyal at https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number -->
+                        <input type="tel" id="pnum" name="phone" pattern="\(?\d{3}\)?-? *\d{3}-? *-?\d{4}" >
                     </li>
                     <li>
                         <label for="ref">REFERRAL CODE</label>
                         <input type="password" id="ref" name="referral" minlength="5">
                     </li>
-                    <li>
+                    <li id="confirm-ref-container">
                         <label for="ref-match">CONFIRM REFERRAL</label>
                         <input type="password" id="ref-match" name="confirm_referral">
                     </li>
