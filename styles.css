@@ -68,6 +68,12 @@ form h2 {
     border-radius: 5px;
 }
 
+#sign-up input:focus {
+    border: 1.5px solid rgb(89, 89, 239);
+    outline: 0;
+    box-shadow: 1px 2px 6px rgba(100, 100, 100, 0.7)
+}
+
 form li {
     list-style-type: none;
     margin: 8px 0;
